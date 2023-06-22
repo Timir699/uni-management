@@ -1,0 +1,13 @@
+[Wed Jun 21 2023 20:0:54  }] wrong meow! error: testing error logger 2023-06-21T14:00:54.941Z 
+[Wed Jun 21 2023 20:1:57  }] wrong meow! error: globalErroHandler -  [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "roll"
+    ],
+    "message": "role is required"
+  }
+] 2023-06-21T14:01:57.322Z 
