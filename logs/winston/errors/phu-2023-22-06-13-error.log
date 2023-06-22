@@ -1,0 +1,12 @@
+[Thu Jun 22 2023 13:26:48  }] wrong meow! error: globalErroHandler -  [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "roll"
+    ],
+    "message": "role is required"
+  }
+] 2023-06-22T07:26:48.347Z 

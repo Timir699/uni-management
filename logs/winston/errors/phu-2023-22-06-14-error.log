@@ -1,0 +1,48 @@
+[Thu Jun 22 2023 14:2:37  }] wrong meow! error: globalErroHandler -  [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "roll"
+    ],
+    "message": "role is required"
+  }
+] 2023-06-22T08:02:37.590Z 
+[Thu Jun 22 2023 14:6:10  }] wrong meow! error: globalErroHandler -  [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "roll"
+    ],
+    "message": "role is required"
+  }
+] 2023-06-22T08:06:10.609Z 
+[Thu Jun 22 2023 14:20:20  }] wrong meow! error: globalErroHandler -  [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "roll"
+    ],
+    "message": "role is required"
+  }
+] 2023-06-22T08:20:20.070Z 
+[Thu Jun 22 2023 14:22:15  }] wrong meow! error: globalErroHandler -  [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required"
+  }
+] 2023-06-22T08:22:15.847Z 
