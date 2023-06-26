@@ -1,0 +1,101 @@
+[Mon Jun 26 2023 0:4:43  }] wrong meow! error: globalErroHandler -  Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester" 2023-06-25T18:04:43.194Z 
+[Mon Jun 26 2023 0:4:55  }] wrong meow! error: globalErroHandler -  Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester" 2023-06-25T18:04:55.022Z 
+[Mon Jun 26 2023 0:5:14  }] wrong meow! error: globalErroHandler -  Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester" 2023-06-25T18:05:14.171Z 
+[Mon Jun 26 2023 0:6:18  }] wrong meow! error: globalErroHandler -  Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester" 2023-06-25T18:06:18.694Z 
+[Mon Jun 26 2023 0:17:25  }] wrong meow! error: globalErroHandler -  [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Expected number, received string"
+  }
+] 2023-06-25T18:17:25.414Z 
+[Mon Jun 26 2023 0:18:24  }] wrong meow! error: globalErroHandler -  [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Expected number, received string"
+  }
+] 2023-06-25T18:18:24.995Z 
+[Mon Jun 26 2023 0:20:48  }] wrong meow! error: globalErroHandler -  [
+  {
+    "received": "2023",
+    "code": "invalid_enum_value",
+    "options": [
+      "01",
+      "02",
+      "03"
+    ],
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Invalid enum value. Expected '01' | '02' | '03', received '2023'"
+  }
+] 2023-06-25T18:20:48.955Z 
+[Mon Jun 26 2023 0:22:39  }] wrong meow! error: globalErroHandler -  Invalid Semester Code 2023-06-25T18:22:39.539Z 
+[Mon Jun 26 2023 0:22:47  }] wrong meow! error: globalErroHandler -  Invalid Semester Code 2023-06-25T18:22:47.022Z 
+[Mon Jun 26 2023 0:42:4  }] wrong meow! error: globalErroHandler -  [
+  {
+    "expected": "'Autumn' | 'Summer' | 'Fall'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Year is required"
+  },
+  {
+    "expected": "'01' | '02' | '03'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Code is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "startMonth"
+    ],
+    "message": "Start Month is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "endMonth"
+    ],
+    "message": "End Month is required"
+  }
+] 2023-06-25T18:42:04.234Z 
+[Mon Jun 26 2023 0:42:34  }] wrong meow! error: globalErroHandler -  Academic semester is already exist 2023-06-25T18:42:34.402Z 
+[Mon Jun 26 2023 0:51:49  }] wrong meow! error: globalErroHandler -  $and/$or/$nor must be a nonempty array 2023-06-25T18:51:49.743Z 
+[Mon Jun 26 2023 0:53:1  }] wrong meow! error: globalErroHandler -  $and/$or/$nor must be a nonempty array 2023-06-25T18:53:01.644Z 

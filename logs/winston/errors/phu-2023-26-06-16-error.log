@@ -1,0 +1,5 @@
+[Mon Jun 26 2023 16:10:48  }] wrong meow! error: globalErroHandler -  Cast to ObjectId failed for value "64988aceda1794638ce" (type string) at path "_id" for model "AcademicSemester" 2023-06-26T10:10:48.694Z 
+[Mon Jun 26 2023 16:10:52  }] wrong meow! error: globalErroHandler -  Cast to ObjectId failed for value "64988aceda1794638ce" (type string) at path "_id" for model "AcademicSemester" 2023-06-26T10:10:52.526Z 
+[Mon Jun 26 2023 16:11:55  }] wrong meow! error: globalErroHandler -  Cast to ObjectId failed for value "64988aceda179" (type string) at path "_id" for model "AcademicSemester" 2023-06-26T10:11:55.982Z 
+[Mon Jun 26 2023 16:17:50  }] wrong meow! error: globalErroHandler -  Cast to ObjectId failed for value "64988aceda179" (type string) at path "_id" for model "AcademicSemester" 2023-06-26T10:17:50.699Z 
+[Mon Jun 26 2023 16:18:14  }] wrong meow! error: globalErroHandler -  Cast to ObjectId failed for value "64988aceda179" (type string) at path "_id" for model "AcademicSemester" 2023-06-26T10:18:14.847Z 
