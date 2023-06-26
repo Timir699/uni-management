@@ -20,6 +20,29 @@ export const academicSemesterMonths: IAcademicSemesterMonths[] = [
 ];
 
 export const academicSemesterTitles: IAcademicSemesterTitles[] = [
-  'Autumn | Summer | Fall',
+  'Autumn',
+  'Summer',
+  'Fall',
 ];
-export const academicSemesterCodes: IAcademicSemesterCodes[] = ['01 | 02 | 03'];
+export const academicSemesterCodes: IAcademicSemesterCodes[] = [
+  '01',
+  '02',
+  '03',
+];
+
+export const academicSemesterTitleCodeMapper: {
+  [key: string]: string;
+} = {
+  Autumn: '01',
+  Summer: '02',
+  Fall: '03',
+};
+
+export const academicSemesrterSearchableFields = ['title', 'code', 'year'];
+
+export const academicSemesrterFilterableFields = [
+  'searchTerm',
+  'title',
+  'code',
+  'year',
+];

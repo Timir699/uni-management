@@ -1,0 +1,48 @@
+{
+  message: 'db connected',
+  level: 'info',
+  label: 'ph!',
+  timestamp: '2023-06-25T19:00:00.030Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'ph!',
+  timestamp: '2023-06-25T19:00:00.057Z'
+}
+{
+  message: 'db connected',
+  level: 'info',
+  label: 'ph!',
+  timestamp: '2023-06-25T19:00:22.984Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'ph!',
+  timestamp: '2023-06-25T19:00:22.998Z'
+}
+{
+  message: 'db connected',
+  level: 'info',
+  label: 'ph!',
+  timestamp: '2023-06-25T19:00:40.637Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'ph!',
+  timestamp: '2023-06-25T19:00:40.654Z'
+}
+{
+  message: 'db connected',
+  level: 'info',
+  label: 'ph!',
+  timestamp: '2023-06-25T19:00:52.629Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'ph!',
+  timestamp: '2023-06-25T19:00:52.641Z'
+}

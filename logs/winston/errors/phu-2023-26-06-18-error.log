@@ -1,0 +1,59 @@
+[Mon Jun 26 2023 18:10:14  }] wrong meow! error: globalErroHandler -  Expected double-quoted property name in JSON at position 52 2023-06-26T12:10:14.867Z 
+[Mon Jun 26 2023 18:10:26  }] wrong meow! error: globalErroHandler -  [
+  {
+    "expected": "'01' | '02' | '03'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Code is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "startMonth"
+    ],
+    "message": "Start Month is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "endMonth"
+    ],
+    "message": "End Month is required"
+  }
+] 2023-06-26T12:10:26.328Z 
+[Mon Jun 26 2023 18:12:6  }] wrong meow! error: globalErroHandler -  [
+  {
+    "code": "custom",
+    "message": "Either both title and code should be provided or neither",
+    "path": []
+  }
+] 2023-06-26T12:12:06.612Z 
+[Mon Jun 26 2023 18:14:18  }] wrong meow! error: globalErroHandler -  Invalid Semester Code 2023-06-26T12:14:18.876Z 
+[Mon Jun 26 2023 18:14:40  }] wrong meow! error: globalErroHandler -  Invalid Semester Code 2023-06-26T12:14:40.565Z 
+[Mon Jun 26 2023 18:14:46  }] wrong meow! error: globalErroHandler -  [
+  {
+    "received": "031",
+    "code": "invalid_enum_value",
+    "options": [
+      "01",
+      "02",
+      "03"
+    ],
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Invalid enum value. Expected '01' | '02' | '03', received '031'"
+  }
+] 2023-06-26T12:14:46.035Z 
+[Mon Jun 26 2023 18:14:52  }] wrong meow! error: globalErroHandler -  Invalid Semester Code 2023-06-26T12:14:52.913Z 
