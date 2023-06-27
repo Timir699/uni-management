@@ -14,6 +14,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
   config.env === 'develpement'
     ? console.log('globalErrorHandler - ', error)
     : errorlogger.error('globalErroHandler - ', error);
+  console.log(error);
 
   let statusCode = 500;
   let message = 'Something went wrong';
@@ -34,7 +35,8 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
-  } else if (error instanceof Error) {
+  } else if (error instanceof ApiError) {
+    statusCode = error?.statusCode;
     message = error?.message;
     errorMessages = error?.message
       ? [
@@ -44,8 +46,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
           },
         ]
       : [];
-  } else if (error instanceof ApiError) {
-    statusCode = error?.statusCode;
+  } else if (error instanceof Error) {
     message = error?.message;
     errorMessages = error?.message
       ? [

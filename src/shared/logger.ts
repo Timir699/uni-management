@@ -1,16 +1,16 @@
-import path from 'path'
-import { createLogger, format, transports } from 'winston'
-import DailyRotateFile from 'winston-daily-rotate-file'
-const { combine, timestamp, label, printf, prettyPrint } = format
+import path from 'path';
+import { createLogger, format, transports } from 'winston';
+import DailyRotateFile from 'winston-daily-rotate-file';
+const { combine, timestamp, label, printf, prettyPrint } = format;
 
 // custom log
 const myFormat = printf(({ level, message, label, timestamp }) => {
-  const date = new Date(timestamp)
-  const hour = date.getHours()
-  const minutes = date.getMinutes()
-  const seconds = date.getSeconds()
-  return `[${date.toDateString()} ${hour}:${minutes}:${seconds}  }] ${label} ${level}: ${message} ${timestamp} `
-})
+  const date = new Date(timestamp);
+  const hour = date.getHours();
+  const minutes = date.getMinutes();
+  const seconds = date.getSeconds();
+  return `[${date.toDateString()} ${hour}:${minutes}:${seconds}  }] ${label} ${level}: ${message} ${timestamp} `;
+});
 
 const logger = createLogger({
   level: 'info',
@@ -36,11 +36,11 @@ const logger = createLogger({
       maxFiles: '14d',
     }),
   ],
-})
+});
 
 const errorlogger = createLogger({
   level: 'error',
-  format: combine(label({ label: 'wrong meow!' }), timestamp(), myFormat),
+  format: combine(label({ label: 'Error' }), timestamp(), myFormat),
   transports: [
     new transports.Console(),
     new DailyRotateFile({
@@ -57,6 +57,6 @@ const errorlogger = createLogger({
       maxFiles: '14d',
     }),
   ],
-})
+});
 
-export { errorlogger, logger }
+export { errorlogger, logger };
